@@ -1,1 +1,1 @@
-# DB-lab1
+# Streaming Service for lab 1
