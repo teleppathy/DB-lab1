@@ -60,76 +60,75 @@ ER-diagram для стримінгового сервісу
   - IsDeleted – позначка видаленого акаунта
 
 
-**Subscription**
-
+## **Subscription**
 
 Зберігає інформацію про підписки користувачів.
 
-Атрибути:
+- Атрибути:
 
-SubscriptionID (PK) – ідентифікатор підписки
+  - SubscriptionID (PK) – ідентифікатор підписки
 
-StartDate – дата початку
+  - StartDate – дата початку
 
-EndDate – дата завершення
+  - EndDate – дата завершення
 
-Type – тип підписки
+  - Type – тип підписки
 
-Price – ціна
+  - Price – ціна
 
-CustomerID (FK) – посилання на користувача
+  - CustomerID (FK) – посилання на користувача
 
 
-**Payment**
+## **Payment**
 
 
 Зберігає інформацію про платежі за підписку.
 
-Атрибути:
+ - Атрибути:
 
-PaymentID (PK) – ідентифікатор платежу
+  - PaymentID (PK) – ідентифікатор платежу
 
-Amount – сума платежу
+  - Amount – сума платежу
 
-PaymentType – тип оплати
+  - PaymentType – тип оплати
 
-PaymentDate – дата платежу
+  - PaymentDate – дата платежу
 
-Status – статус платежу
+  - Status – статус платежу
 
-CustomerID (FK) – користувач
+  - CustomerID (FK) – користувач
 
-SubscriptionID (FK) – підписка
+  - SubscriptionID (FK) – підписка
 
 
-**Film**
+## **Film**
 
 
 Зберігає інформацію про фільми.
 
-Атрибути:
+- Атрибути:
 
-FilmID (PK) – ідентифікатор фільму
+  - FilmID (PK) – ідентифікатор фільму
 
-Title – назва
+  - Title – назва
 
-ReleaseYear – рік випуску
+  - ReleaseYear – рік випуску
 
-Duration – тривалість
+  - Duration – тривалість
 
-AgeRestriction – вікове обмеження
+  - AgeRestriction – вікове обмеження
 
-StudioID (FK) – студія
+  - StudioID (FK) – студія
 
 
-**Studio**
+## **Studio**
 
 
 Зберігає інформацію про кіностудії.
 
 Атрибути:
 
-StudioID (PK) – ідентифікатор студії
+  - StudioID (PK) – ідентифікатор студії
 
 Name – назва
 
