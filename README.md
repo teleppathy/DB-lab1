@@ -36,7 +36,7 @@ ER-diagram для стримінгового сервісу
 
 
 
-#**Customer**
+## **Customer**
 
 
 Зберігає інформацію про користувачів сервісу.
@@ -49,15 +49,15 @@ ER-diagram для стримінгового сервісу
 
   - LastName – прізвище
 
-Email – електронна пошта
+  - Email – електронна пошта
 
-Password – пароль
+  - Password – пароль
 
-RegistrationDate – дата реєстрації
+  - RegistrationDate – дата реєстрації
 
-BirthDate – дата народження
+  - BirthDate – дата народження
 
-IsDeleted – позначка видаленого акаунта
+  - IsDeleted – позначка видаленого акаунта
 
 
 **Subscription**
