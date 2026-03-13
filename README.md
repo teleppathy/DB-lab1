@@ -136,56 +136,54 @@ ER-diagram для стримінгового сервісу
 
   - FoundedDate – дата заснування
 
-
 ## **Director**
 
 
 Зберігає інформацію про режисерів.
 
-Атрибути:
+- Атрибути:
 
-DirectorID (PK) – ідентифікатор режисера
+  - DirectorID (PK) – ідентифікатор режисера
 
-FirstName – ім'я
+  - FirstName – ім'я
 
-LastName – прізвище
+  - LastName – прізвище
 
-Country – країна
+  - Country – країна
 
 
-**Actor**
+## **Actor**
 
 
 Зберігає інформацію про акторів.
 
-Атрибути:
+- Атрибути:
 
-ActorID (PK) – ідентифікатор актора
+  - ActorID (PK) – ідентифікатор актора
 
-FirstName – ім'я
+  - FirstName – ім'я
 
-LastName – прізвище
+  - LastName – прізвище
 
-Country – країна
+  - Country – країна
 
-Photo – фотографія
+  - Photo – фотографія
 
-BirthDate – дата народження
+  - BirthDate – дата народження
 
 
-**Genre**
+## **Genre**
 
 
 Зберігає інформацію про жанри фільмів.
 
-Атрибути:
+- Атрибути:
 
-GenreID (PK) – ідентифікатор жанру
+  - GenreID (PK) – ідентифікатор жанру
 
-Name – назва жанру
+  - Name – назва жанру
 
-Description – опис
-
+  - Description – опис
 
 
 # 3. Пояснення зв'язків
